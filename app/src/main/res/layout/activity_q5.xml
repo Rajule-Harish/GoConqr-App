@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundquizc"
+    tools:context=".Q5">
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        android:text="Question 5:"
+        android:textSize="45sp" />
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="175dp"
+        android:textColor="@color/white"
+        android:text="int a[202] is an array. sizeof(a)= ?"
+        android:textSize="30sp" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="325dp"
+        >
+        <RadioButton
+            android:id="@+id/radioButton17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="8" />
+        <RadioButton
+            android:id="@+id/radioButton18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="100" />
+        <RadioButton
+            android:id="@+id/radioButton19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="202" />
+        <RadioButton
+            android:id="@+id/radioButton20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="808" />
+    </RadioGroup>
+</RelativeLayout>
